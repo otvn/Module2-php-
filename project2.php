@@ -12,7 +12,7 @@ if($answer1=="b"){
   $score++; 
 }
 else{
-    echo"Wrong answer\n";
+    echo"Wrong answer and correct answer is b\n";
 }
 
 echo "2.Who invented the telephone?\n";
@@ -26,7 +26,7 @@ if($answer2 == "a"){
   $score++; 
 }
 else{
-    echo"Wrong answer\n";
+    echo"Wrong answer and correct answer is a\n";
 }
 echo "3.What is the smallest country in the world by land area?\n";
 echo "a) Monaco\n";
@@ -39,7 +39,7 @@ if($answer3=="b\n"){
   $score++; 
 }
 else{
-    echo"Wrong answer\n";
+    echo"Wrong answer and correct answer is a\n";
 }
 echo " you got $score out of 3 ";
 ?>
